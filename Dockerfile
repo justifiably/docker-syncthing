@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Joey Baker <joey@byjoeybaker.com>
+FROM ubuntu:15.10
+MAINTAINER Justifiably <justifiably@ymail.com>
 
 RUN useradd --no-create-home -g users --uid 1027 syncthing
 # grab gosu for easy step-down from root
