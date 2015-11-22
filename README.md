@@ -3,7 +3,8 @@
 [![](http://dockeri.co/image/justifiably/syncthing)](https://registry.hub.docker.com/u/justifiably/syncthing/)
 
 Based on original by
-[Joey Baker](http://dockeri.co/image/joeybaker/syncthing).
+[Joey Baker](https://registry.hub.docker.com/u/justifiably/syncthing/)
+Removes bud.
 
 Run syncthing from a docker container
 
@@ -28,4 +29,6 @@ If you want to add a new folder, make sure you set the path to something in `/sr
 **NOTE**: for security reasons, starting this docker container will change the permissions of all files in your data directory to a new, docker-only user. This ensures that the docker container can access the files.
 
 ## Developing
-You can run `run.sh` to restart the bud-ssl terminator and syncthing. Any push to this repo will auto-update the docker image on docker hub.
+
+You can run `run.sh` to restart syncthing.  Any push to this repo will
+auto-update the docker image on docker hub.
