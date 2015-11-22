@@ -1,0 +1,5 @@
+[syncthing]
+title=Syncthing sync tool
+description=Syncthing is a btsync like sync tool
+ports=8384,22000/tcp|21027/udp
+
